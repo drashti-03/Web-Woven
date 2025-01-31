@@ -1,0 +1,41 @@
+* {
+  font-family: "Albert Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: rgba(182, 182, 182, 0.645);
+  font-family: "Cormorant Garamond", serif;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.card-img-top {
+  border: 2px solid rgb(46, 45, 45);
+}
+
+.card-text {
+  display: flex;
+  align-items: stretch;
+}
+
+.card-title {
+  font-weight: 500;
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=main.css.map */
